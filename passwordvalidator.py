@@ -47,3 +47,9 @@ def generate(n):
     password = ''.join(random_list)
     
     return password
+
+password = input("Enter the password you want to test: ")
+print(validate(password))
+
+n = int(input("Enter the size of password you want to generate: "))
+print(generate(n))
